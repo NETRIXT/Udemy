@@ -10,14 +10,10 @@ const ExpensesFilter = (props) => {
       date: e.target.value
     };
     setChosenDate(e.target.value);
-    // props.onSaveSelectedData(selectedData);
 
     console.log(selectedData);
   }
 
-  // useEffect(() => {
-  //   console.log(chosenDate);
-  // }, [chosenDate]);
 
   return (
     <div className='expenses-filter'>
